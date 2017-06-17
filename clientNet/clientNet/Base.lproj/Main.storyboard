@@ -108,14 +108,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MnA-oE-fJT">
+                                <rect key="frame" x="308" y="276" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="N9v-W4-jlr"/>
+                                    <constraint firstAttribute="height" constant="30" id="c7A-ib-cyh"/>
+                                </constraints>
+                                <state key="normal" title="断开"/>
+                                <connections>
+                                    <action selector="disconnection" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ei-K2-Jnu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="KbL-f8-q7X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9eG-97-Vsk"/>
+                            <constraint firstAttribute="trailing" secondItem="MnA-oE-fJT" secondAttribute="trailing" constant="21" id="ERk-fI-aFe"/>
                             <constraint firstItem="ppd-6k-4j8" firstAttribute="top" secondItem="KbL-f8-q7X" secondAttribute="bottom" constant="34" id="Gng-ur-eYR"/>
                             <constraint firstAttribute="trailing" secondItem="Bke-9N-674" secondAttribute="trailing" id="IMW-6i-eJ7"/>
                             <constraint firstItem="ppd-6k-4j8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JRA-gX-fpI"/>
                             <constraint firstItem="Bke-9N-674" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Wky-DQ-fQf"/>
+                            <constraint firstItem="MnA-oE-fJT" firstAttribute="top" secondItem="ppd-6k-4j8" secondAttribute="bottom" constant="26" id="Z4s-ob-89T"/>
                             <constraint firstItem="Bke-9N-674" firstAttribute="top" secondItem="ppd-6k-4j8" secondAttribute="bottom" constant="56" id="pbL-4W-JAZ"/>
                             <constraint firstAttribute="trailing" secondItem="KbL-f8-q7X" secondAttribute="trailing" id="qNk-ko-YTQ"/>
                             <constraint firstAttribute="trailing" secondItem="ppd-6k-4j8" secondAttribute="trailing" id="qah-Qd-ceZ"/>

@@ -37,6 +37,7 @@
         if ([self connectTo:self.hostnameTextC.text port:self.portTextC.text.intValue]) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.recvLabelC.text = @"连接成功";
+                [self logRunloop];
             });
             
         } else {
@@ -49,8 +50,33 @@
     
 }
 
+- (void)logRunloop
+{
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        char redStr[1024] = {0};
+        NSString * redMsg;
+        while (1) {
+            if (self.clientSocket < 0) {
+                NSLog(@"%s----断开连接", __func__);
+                return;
+            }
+            read(self.clientSocket, redStr, sizeof(redStr));
+            redMsg = [NSString stringWithUTF8String:redStr];
+            NSLog(@"接受到数据: %@", redMsg);
+            if (redMsg) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    self.recvLabelC.text = redMsg;
+                });
+            }
+        }
+        
+    });
+}
+
 - (IBAction)sendBtnClick:(id)sender {
-    self.recvLabelC.text = [self sendAndRecv:self.msgTextC.text];
+//    self.recvLabelC.text = [self sendAndRecv:self.msgTextC.text];
+    
+    [self sendAndRecv:self.msgTextC.text];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -77,6 +103,10 @@
      socket，如果 > 0 就表示成功
      */
     int clientSocket = socket(AF_INET, SOCK_STREAM, 0);
+    if (clientSocket < 0) {
+        UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"socket 创建失败!!!." message:@"" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];;
+        [alertView show];
+    }
     self.clientSocket = clientSocket;
     
     // 2. 连接到服务器
@@ -92,6 +122,7 @@
      0 成功/其他 错误代号，非0即真
      */
     struct sockaddr_in serverAddress;
+    memset(&serverAddress, 0, sizeof(serverAddress));// 初始化
     // 协议族
     serverAddress.sin_family = AF_INET;
     // 主机地址 - inet_addr 函数可以把ip地址转换成一个整数
@@ -100,7 +131,10 @@
     serverAddress.sin_port = htons(5189);
     
     int result = connect(clientSocket, (const struct sockaddr *)&serverAddress, sizeof(serverAddress));
-    
+    if (result < 0) {
+        UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"连接失败!!!." message:@"" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];;
+        [alertView show];
+    }
     return (result == 0);
 }
 
@@ -109,7 +143,7 @@
 ///  @param msg 发送给服务器的消息
 ///
 ///  @return 从服务器接收到的消息
-- (NSString *)sendAndRecv:(NSString *)msg {
+- (void)sendAndRecv:(NSString *)msg {
     // 1. 发送消息
     /**
      参数
@@ -121,9 +155,11 @@
      如果成功，则返回发送的字节数，失败则返回SOCKET_ERROR
      */
     NSLog(@"%s", msg.UTF8String);
-    ssize_t sendLen = send(self.clientSocket, msg.UTF8String, strlen(msg.UTF8String), 0);
+//    ssize_t sendLen = send(self.clientSocket, msg.UTF8String, strlen(msg.UTF8String), 0);
     
-    NSLog(@"发送了 %ld 字节", sendLen);
+    write(self.clientSocket, msg.UTF8String, strlen(msg.UTF8String));
+    
+//    NSLog(@"发送了 %ld 字节", sendLen);
     
     // 2. 接收消息
     /**
@@ -135,20 +171,22 @@
      返回值
      如果成功，则返回读入的字节数，失败则返回SOCKET_ERROR
      */
-    uint8_t buffer[100];
-    ssize_t recvLen = recv(self.clientSocket, buffer, sizeof(buffer), 0);
-    NSLog(@"接收到 %ld 字节", recvLen);
-    
-    NSData *data = [NSData dataWithBytes:buffer length:recvLen];
-    NSString *str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-    
-    return str;
+//    uint8_t buffer[100];
+//    ssize_t recvLen = recv(self.clientSocket, buffer, sizeof(buffer), 0);
+//    NSLog(@"接收到 %ld 字节", recvLen);
+//    
+//    NSData *data = [NSData dataWithBytes:buffer length:recvLen];
+//    NSString *str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+//    
+//    return str;
 }
 
 ///  断开连接
-- (void)disconnection {
+- (IBAction)disconnection {
     // 1. 断开连接
     close(self.clientSocket);
+    self.clientSocket = -1;
+    NSLog(@"%s----断开连接", __func__);
 }
 
 @end
