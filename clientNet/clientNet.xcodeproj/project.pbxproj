@@ -7,68 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC27C4E11EF2F5A9004DA346 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27C4E01EF2F5A9004DA346 /* main.m */; };
-		AC27C4E41EF2F5A9004DA346 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27C4E31EF2F5A9004DA346 /* AppDelegate.m */; };
-		AC27C4E71EF2F5A9004DA346 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27C4E61EF2F5A9004DA346 /* ViewController.m */; };
-		AC27C4EA1EF2F5A9004DA346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC27C4E81EF2F5A9004DA346 /* Main.storyboard */; };
-		AC27C4EC1EF2F5A9004DA346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC27C4EB1EF2F5A9004DA346 /* Assets.xcassets */; };
-		AC27C4EF1EF2F5A9004DA346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC27C4ED1EF2F5A9004DA346 /* LaunchScreen.storyboard */; };
-		AC27C4FA1EF2F5AA004DA346 /* clientNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27C4F91EF2F5AA004DA346 /* clientNetTests.m */; };
-		AC27C5051EF2F5AA004DA346 /* clientNetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27C5041EF2F5AA004DA346 /* clientNetUITests.m */; };
+		AC27C5C71EF57771004DA346 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27C5C61EF57771004DA346 /* main.m */; };
+		AC27C5CA1EF57771004DA346 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27C5C91EF57771004DA346 /* AppDelegate.m */; };
+		AC27C5CD1EF57771004DA346 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27C5CC1EF57771004DA346 /* ViewController.m */; };
+		AC27C5D01EF57771004DA346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC27C5CE1EF57771004DA346 /* Main.storyboard */; };
+		AC27C5D21EF57771004DA346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC27C5D11EF57771004DA346 /* Assets.xcassets */; };
+		AC27C5D51EF57771004DA346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC27C5D31EF57771004DA346 /* LaunchScreen.storyboard */; };
+		AC27C5E01EF57771004DA346 /* clientNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27C5DF1EF57771004DA346 /* clientNetTests.m */; };
+		AC27C5EB1EF57771004DA346 /* clientNetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27C5EA1EF57771004DA346 /* clientNetUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AC27C4F61EF2F5AA004DA346 /* PBXContainerItemProxy */ = {
+		AC27C5DC1EF57771004DA346 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AC27C4D41EF2F5A9004DA346 /* Project object */;
+			containerPortal = AC27C5BA1EF57771004DA346 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AC27C4DB1EF2F5A9004DA346;
+			remoteGlobalIDString = AC27C5C11EF57771004DA346;
 			remoteInfo = clientNet;
 		};
-		AC27C5011EF2F5AA004DA346 /* PBXContainerItemProxy */ = {
+		AC27C5E71EF57771004DA346 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AC27C4D41EF2F5A9004DA346 /* Project object */;
+			containerPortal = AC27C5BA1EF57771004DA346 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AC27C4DB1EF2F5A9004DA346;
+			remoteGlobalIDString = AC27C5C11EF57771004DA346;
 			remoteInfo = clientNet;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC27C4DC1EF2F5A9004DA346 /* clientNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clientNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC27C4E01EF2F5A9004DA346 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AC27C4E21EF2F5A9004DA346 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AC27C4E31EF2F5A9004DA346 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AC27C4E51EF2F5A9004DA346 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AC27C4E61EF2F5A9004DA346 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AC27C4E91EF2F5A9004DA346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC27C4EB1EF2F5A9004DA346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC27C4EE1EF2F5A9004DA346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AC27C4F01EF2F5A9004DA346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC27C4F51EF2F5AA004DA346 /* clientNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clientNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC27C4F91EF2F5AA004DA346 /* clientNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clientNetTests.m; sourceTree = "<group>"; };
-		AC27C4FB1EF2F5AA004DA346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC27C5001EF2F5AA004DA346 /* clientNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clientNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC27C5041EF2F5AA004DA346 /* clientNetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clientNetUITests.m; sourceTree = "<group>"; };
-		AC27C5061EF2F5AA004DA346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC27C5C21EF57771004DA346 /* clientNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clientNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC27C5C61EF57771004DA346 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC27C5C81EF57771004DA346 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC27C5C91EF57771004DA346 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC27C5CB1EF57771004DA346 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC27C5CC1EF57771004DA346 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC27C5CF1EF57771004DA346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC27C5D11EF57771004DA346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC27C5D41EF57771004DA346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC27C5D61EF57771004DA346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC27C5DB1EF57771004DA346 /* clientNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clientNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC27C5DF1EF57771004DA346 /* clientNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clientNetTests.m; sourceTree = "<group>"; };
+		AC27C5E11EF57771004DA346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC27C5E61EF57771004DA346 /* clientNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clientNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC27C5EA1EF57771004DA346 /* clientNetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clientNetUITests.m; sourceTree = "<group>"; };
+		AC27C5EC1EF57771004DA346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AC27C4D91EF2F5A9004DA346 /* Frameworks */ = {
+		AC27C5BF1EF57771004DA346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC27C4F21EF2F5AA004DA346 /* Frameworks */ = {
+		AC27C5D81EF57771004DA346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC27C4FD1EF2F5AA004DA346 /* Frameworks */ = {
+		AC27C5E31EF57771004DA346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,64 +78,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC27C4D31EF2F5A9004DA346 = {
+		AC27C5B91EF57771004DA346 = {
 			isa = PBXGroup;
 			children = (
-				AC27C4DE1EF2F5A9004DA346 /* clientNet */,
-				AC27C4F81EF2F5AA004DA346 /* clientNetTests */,
-				AC27C5031EF2F5AA004DA346 /* clientNetUITests */,
-				AC27C4DD1EF2F5A9004DA346 /* Products */,
+				AC27C5C41EF57771004DA346 /* clientNet */,
+				AC27C5DE1EF57771004DA346 /* clientNetTests */,
+				AC27C5E91EF57771004DA346 /* clientNetUITests */,
+				AC27C5C31EF57771004DA346 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AC27C4DD1EF2F5A9004DA346 /* Products */ = {
+		AC27C5C31EF57771004DA346 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC27C4DC1EF2F5A9004DA346 /* clientNet.app */,
-				AC27C4F51EF2F5AA004DA346 /* clientNetTests.xctest */,
-				AC27C5001EF2F5AA004DA346 /* clientNetUITests.xctest */,
+				AC27C5C21EF57771004DA346 /* clientNet.app */,
+				AC27C5DB1EF57771004DA346 /* clientNetTests.xctest */,
+				AC27C5E61EF57771004DA346 /* clientNetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC27C4DE1EF2F5A9004DA346 /* clientNet */ = {
+		AC27C5C41EF57771004DA346 /* clientNet */ = {
 			isa = PBXGroup;
 			children = (
-				AC27C4E21EF2F5A9004DA346 /* AppDelegate.h */,
-				AC27C4E31EF2F5A9004DA346 /* AppDelegate.m */,
-				AC27C4E51EF2F5A9004DA346 /* ViewController.h */,
-				AC27C4E61EF2F5A9004DA346 /* ViewController.m */,
-				AC27C4E81EF2F5A9004DA346 /* Main.storyboard */,
-				AC27C4EB1EF2F5A9004DA346 /* Assets.xcassets */,
-				AC27C4ED1EF2F5A9004DA346 /* LaunchScreen.storyboard */,
-				AC27C4F01EF2F5A9004DA346 /* Info.plist */,
-				AC27C4DF1EF2F5A9004DA346 /* Supporting Files */,
+				AC27C5C81EF57771004DA346 /* AppDelegate.h */,
+				AC27C5C91EF57771004DA346 /* AppDelegate.m */,
+				AC27C5CB1EF57771004DA346 /* ViewController.h */,
+				AC27C5CC1EF57771004DA346 /* ViewController.m */,
+				AC27C5CE1EF57771004DA346 /* Main.storyboard */,
+				AC27C5D11EF57771004DA346 /* Assets.xcassets */,
+				AC27C5D31EF57771004DA346 /* LaunchScreen.storyboard */,
+				AC27C5D61EF57771004DA346 /* Info.plist */,
+				AC27C5C51EF57771004DA346 /* Supporting Files */,
 			);
 			path = clientNet;
 			sourceTree = "<group>";
 		};
-		AC27C4DF1EF2F5A9004DA346 /* Supporting Files */ = {
+		AC27C5C51EF57771004DA346 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC27C4E01EF2F5A9004DA346 /* main.m */,
+				AC27C5C61EF57771004DA346 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AC27C4F81EF2F5AA004DA346 /* clientNetTests */ = {
+		AC27C5DE1EF57771004DA346 /* clientNetTests */ = {
 			isa = PBXGroup;
 			children = (
-				AC27C4F91EF2F5AA004DA346 /* clientNetTests.m */,
-				AC27C4FB1EF2F5AA004DA346 /* Info.plist */,
+				AC27C5DF1EF57771004DA346 /* clientNetTests.m */,
+				AC27C5E11EF57771004DA346 /* Info.plist */,
 			);
 			path = clientNetTests;
 			sourceTree = "<group>";
 		};
-		AC27C5031EF2F5AA004DA346 /* clientNetUITests */ = {
+		AC27C5E91EF57771004DA346 /* clientNetUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AC27C5041EF2F5AA004DA346 /* clientNetUITests.m */,
-				AC27C5061EF2F5AA004DA346 /* Info.plist */,
+				AC27C5EA1EF57771004DA346 /* clientNetUITests.m */,
+				AC27C5EC1EF57771004DA346 /* Info.plist */,
 			);
 			path = clientNetUITests;
 			sourceTree = "<group>";
@@ -143,13 +143,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC27C4DB1EF2F5A9004DA346 /* clientNet */ = {
+		AC27C5C11EF57771004DA346 /* clientNet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC27C5091EF2F5AA004DA346 /* Build configuration list for PBXNativeTarget "clientNet" */;
+			buildConfigurationList = AC27C5EF1EF57771004DA346 /* Build configuration list for PBXNativeTarget "clientNet" */;
 			buildPhases = (
-				AC27C4D81EF2F5A9004DA346 /* Sources */,
-				AC27C4D91EF2F5A9004DA346 /* Frameworks */,
-				AC27C4DA1EF2F5A9004DA346 /* Resources */,
+				AC27C5BE1EF57771004DA346 /* Sources */,
+				AC27C5BF1EF57771004DA346 /* Frameworks */,
+				AC27C5C01EF57771004DA346 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,74 +157,74 @@
 			);
 			name = clientNet;
 			productName = clientNet;
-			productReference = AC27C4DC1EF2F5A9004DA346 /* clientNet.app */;
+			productReference = AC27C5C21EF57771004DA346 /* clientNet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AC27C4F41EF2F5AA004DA346 /* clientNetTests */ = {
+		AC27C5DA1EF57771004DA346 /* clientNetTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC27C50C1EF2F5AA004DA346 /* Build configuration list for PBXNativeTarget "clientNetTests" */;
+			buildConfigurationList = AC27C5F21EF57771004DA346 /* Build configuration list for PBXNativeTarget "clientNetTests" */;
 			buildPhases = (
-				AC27C4F11EF2F5AA004DA346 /* Sources */,
-				AC27C4F21EF2F5AA004DA346 /* Frameworks */,
-				AC27C4F31EF2F5AA004DA346 /* Resources */,
+				AC27C5D71EF57771004DA346 /* Sources */,
+				AC27C5D81EF57771004DA346 /* Frameworks */,
+				AC27C5D91EF57771004DA346 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AC27C4F71EF2F5AA004DA346 /* PBXTargetDependency */,
+				AC27C5DD1EF57771004DA346 /* PBXTargetDependency */,
 			);
 			name = clientNetTests;
 			productName = clientNetTests;
-			productReference = AC27C4F51EF2F5AA004DA346 /* clientNetTests.xctest */;
+			productReference = AC27C5DB1EF57771004DA346 /* clientNetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AC27C4FF1EF2F5AA004DA346 /* clientNetUITests */ = {
+		AC27C5E51EF57771004DA346 /* clientNetUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC27C50F1EF2F5AA004DA346 /* Build configuration list for PBXNativeTarget "clientNetUITests" */;
+			buildConfigurationList = AC27C5F51EF57771004DA346 /* Build configuration list for PBXNativeTarget "clientNetUITests" */;
 			buildPhases = (
-				AC27C4FC1EF2F5AA004DA346 /* Sources */,
-				AC27C4FD1EF2F5AA004DA346 /* Frameworks */,
-				AC27C4FE1EF2F5AA004DA346 /* Resources */,
+				AC27C5E21EF57771004DA346 /* Sources */,
+				AC27C5E31EF57771004DA346 /* Frameworks */,
+				AC27C5E41EF57771004DA346 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AC27C5021EF2F5AA004DA346 /* PBXTargetDependency */,
+				AC27C5E81EF57771004DA346 /* PBXTargetDependency */,
 			);
 			name = clientNetUITests;
 			productName = clientNetUITests;
-			productReference = AC27C5001EF2F5AA004DA346 /* clientNetUITests.xctest */;
+			productReference = AC27C5E61EF57771004DA346 /* clientNetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AC27C4D41EF2F5A9004DA346 /* Project object */ = {
+		AC27C5BA1EF57771004DA346 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = codew;
 				TargetAttributes = {
-					AC27C4DB1EF2F5A9004DA346 = {
+					AC27C5C11EF57771004DA346 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = UCS53FT3U9;
 						ProvisioningStyle = Automatic;
 					};
-					AC27C4F41EF2F5AA004DA346 = {
+					AC27C5DA1EF57771004DA346 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = UCS53FT3U9;
 						ProvisioningStyle = Automatic;
-						TestTargetID = AC27C4DB1EF2F5A9004DA346;
+						TestTargetID = AC27C5C11EF57771004DA346;
 					};
-					AC27C4FF1EF2F5AA004DA346 = {
+					AC27C5E51EF57771004DA346 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = UCS53FT3U9;
 						ProvisioningStyle = Automatic;
-						TestTargetID = AC27C4DB1EF2F5A9004DA346;
+						TestTargetID = AC27C5C11EF57771004DA346;
 					};
 				};
 			};
-			buildConfigurationList = AC27C4D71EF2F5A9004DA346 /* Build configuration list for PBXProject "clientNet" */;
+			buildConfigurationList = AC27C5BD1EF57771004DA346 /* Build configuration list for PBXProject "clientNet" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,37 +232,37 @@
 				en,
 				Base,
 			);
-			mainGroup = AC27C4D31EF2F5A9004DA346;
-			productRefGroup = AC27C4DD1EF2F5A9004DA346 /* Products */;
+			mainGroup = AC27C5B91EF57771004DA346;
+			productRefGroup = AC27C5C31EF57771004DA346 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC27C4DB1EF2F5A9004DA346 /* clientNet */,
-				AC27C4F41EF2F5AA004DA346 /* clientNetTests */,
-				AC27C4FF1EF2F5AA004DA346 /* clientNetUITests */,
+				AC27C5C11EF57771004DA346 /* clientNet */,
+				AC27C5DA1EF57771004DA346 /* clientNetTests */,
+				AC27C5E51EF57771004DA346 /* clientNetUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AC27C4DA1EF2F5A9004DA346 /* Resources */ = {
+		AC27C5C01EF57771004DA346 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC27C4EF1EF2F5A9004DA346 /* LaunchScreen.storyboard in Resources */,
-				AC27C4EC1EF2F5A9004DA346 /* Assets.xcassets in Resources */,
-				AC27C4EA1EF2F5A9004DA346 /* Main.storyboard in Resources */,
+				AC27C5D51EF57771004DA346 /* LaunchScreen.storyboard in Resources */,
+				AC27C5D21EF57771004DA346 /* Assets.xcassets in Resources */,
+				AC27C5D01EF57771004DA346 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC27C4F31EF2F5AA004DA346 /* Resources */ = {
+		AC27C5D91EF57771004DA346 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC27C4FE1EF2F5AA004DA346 /* Resources */ = {
+		AC27C5E41EF57771004DA346 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,60 +272,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AC27C4D81EF2F5A9004DA346 /* Sources */ = {
+		AC27C5BE1EF57771004DA346 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC27C4E71EF2F5A9004DA346 /* ViewController.m in Sources */,
-				AC27C4E41EF2F5A9004DA346 /* AppDelegate.m in Sources */,
-				AC27C4E11EF2F5A9004DA346 /* main.m in Sources */,
+				AC27C5CD1EF57771004DA346 /* ViewController.m in Sources */,
+				AC27C5CA1EF57771004DA346 /* AppDelegate.m in Sources */,
+				AC27C5C71EF57771004DA346 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC27C4F11EF2F5AA004DA346 /* Sources */ = {
+		AC27C5D71EF57771004DA346 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC27C4FA1EF2F5AA004DA346 /* clientNetTests.m in Sources */,
+				AC27C5E01EF57771004DA346 /* clientNetTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC27C4FC1EF2F5AA004DA346 /* Sources */ = {
+		AC27C5E21EF57771004DA346 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC27C5051EF2F5AA004DA346 /* clientNetUITests.m in Sources */,
+				AC27C5EB1EF57771004DA346 /* clientNetUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AC27C4F71EF2F5AA004DA346 /* PBXTargetDependency */ = {
+		AC27C5DD1EF57771004DA346 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AC27C4DB1EF2F5A9004DA346 /* clientNet */;
-			targetProxy = AC27C4F61EF2F5AA004DA346 /* PBXContainerItemProxy */;
+			target = AC27C5C11EF57771004DA346 /* clientNet */;
+			targetProxy = AC27C5DC1EF57771004DA346 /* PBXContainerItemProxy */;
 		};
-		AC27C5021EF2F5AA004DA346 /* PBXTargetDependency */ = {
+		AC27C5E81EF57771004DA346 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AC27C4DB1EF2F5A9004DA346 /* clientNet */;
-			targetProxy = AC27C5011EF2F5AA004DA346 /* PBXContainerItemProxy */;
+			target = AC27C5C11EF57771004DA346 /* clientNet */;
+			targetProxy = AC27C5E71EF57771004DA346 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AC27C4E81EF2F5A9004DA346 /* Main.storyboard */ = {
+		AC27C5CE1EF57771004DA346 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC27C4E91EF2F5A9004DA346 /* Base */,
+				AC27C5CF1EF57771004DA346 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AC27C4ED1EF2F5A9004DA346 /* LaunchScreen.storyboard */ = {
+		AC27C5D31EF57771004DA346 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC27C4EE1EF2F5A9004DA346 /* Base */,
+				AC27C5D41EF57771004DA346 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -333,7 +333,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AC27C5071EF2F5AA004DA346 /* Debug */ = {
+		AC27C5ED1EF57771004DA346 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		AC27C5081EF2F5AA004DA346 /* Release */ = {
+		AC27C5EE1EF57771004DA346 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,7 +425,7 @@
 			};
 			name = Release;
 		};
-		AC27C50A1EF2F5AA004DA346 /* Debug */ = {
+		AC27C5F01EF57771004DA346 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -435,11 +435,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netviewtech.clientNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		AC27C50B1EF2F5AA004DA346 /* Release */ = {
+		AC27C5F11EF57771004DA346 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -449,11 +448,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netviewtech.clientNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		AC27C50D1EF2F5AA004DA346 /* Debug */ = {
+		AC27C5F31EF57771004DA346 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,7 +464,7 @@
 			};
 			name = Debug;
 		};
-		AC27C50E1EF2F5AA004DA346 /* Release */ = {
+		AC27C5F41EF57771004DA346 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,7 +477,7 @@
 			};
 			name = Release;
 		};
-		AC27C5101EF2F5AA004DA346 /* Debug */ = {
+		AC27C5F61EF57771004DA346 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = UCS53FT3U9;
@@ -491,7 +489,7 @@
 			};
 			name = Debug;
 		};
-		AC27C5111EF2F5AA004DA346 /* Release */ = {
+		AC27C5F71EF57771004DA346 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = UCS53FT3U9;
@@ -506,43 +504,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC27C4D71EF2F5A9004DA346 /* Build configuration list for PBXProject "clientNet" */ = {
+		AC27C5BD1EF57771004DA346 /* Build configuration list for PBXProject "clientNet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC27C5071EF2F5AA004DA346 /* Debug */,
-				AC27C5081EF2F5AA004DA346 /* Release */,
+				AC27C5ED1EF57771004DA346 /* Debug */,
+				AC27C5EE1EF57771004DA346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC27C5091EF2F5AA004DA346 /* Build configuration list for PBXNativeTarget "clientNet" */ = {
+		AC27C5EF1EF57771004DA346 /* Build configuration list for PBXNativeTarget "clientNet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC27C50A1EF2F5AA004DA346 /* Debug */,
-				AC27C50B1EF2F5AA004DA346 /* Release */,
+				AC27C5F01EF57771004DA346 /* Debug */,
+				AC27C5F11EF57771004DA346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		AC27C50C1EF2F5AA004DA346 /* Build configuration list for PBXNativeTarget "clientNetTests" */ = {
+		AC27C5F21EF57771004DA346 /* Build configuration list for PBXNativeTarget "clientNetTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC27C50D1EF2F5AA004DA346 /* Debug */,
-				AC27C50E1EF2F5AA004DA346 /* Release */,
+				AC27C5F31EF57771004DA346 /* Debug */,
+				AC27C5F41EF57771004DA346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		AC27C50F1EF2F5AA004DA346 /* Build configuration list for PBXNativeTarget "clientNetUITests" */ = {
+		AC27C5F51EF57771004DA346 /* Build configuration list for PBXNativeTarget "clientNetUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC27C5101EF2F5AA004DA346 /* Debug */,
-				AC27C5111EF2F5AA004DA346 /* Release */,
+				AC27C5F61EF57771004DA346 /* Debug */,
+				AC27C5F71EF57771004DA346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AC27C4D41EF2F5A9004DA346 /* Project object */;
+	rootObject = AC27C5BA1EF57771004DA346 /* Project object */;
 }
